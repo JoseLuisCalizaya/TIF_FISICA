@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Empaquetado y compilación
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Herramientas de desarrollo
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# Variables de entorno y configuración local
+.env
+.env.*
+!.env.example
+
+# Editores y sistema operativo
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Resultados generados (reproducibles con scripts/run_all.py)
+results/*
+!results/README.md
+
+# PDF compilado del documento (reproducible con typst compile)
+doc/main.pdf
+
+# Archivos temporales
+*.log
+*.tmp

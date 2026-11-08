@@ -26,6 +26,7 @@ uv run pytest
 
 ```bash
 uv run python scripts/run_all.py
+uv run python scripts/make_typst_tables.py
 uv run python scripts/check_dois.py
 ```
 
@@ -62,4 +63,4 @@ src/fireca/
 typst compile doc/main.typ doc/main.pdf
 ```
 
-El PDF compilado se encuentra en `doc/main.pdf`.
+El PDF final se genera en `doc/main.pdf` (artefacto no versionado).
